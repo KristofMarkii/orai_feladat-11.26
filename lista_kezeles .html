@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Tanulók adatai</h1>
+    <label for="adatSzam">Hány tanuló adatait szeretnéd megadni?</label>
+    <input type="number" id="adatSzam" min="1">
+    <button onclick="tanulokAdatai()">Adatok bekérése</button>
+    <div id="eredmeny"></div>
+
+    <hr>
+
+    <h1>Heti órarend</h1>
+    <button onclick="irasOrarend()">Órarend megjelenítése</button>
+    <div id="orarend"></div>
+</body>
+</html>
